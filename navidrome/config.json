@@ -1,5 +1,5 @@
 {
-    "version": "1.0.21",
+    "version": "1.0.22",
     "devices": [
         "/dev/dri",
         "/dev/dri/card0",
@@ -71,6 +71,7 @@
         "SYS_TIME"
     ],
     "ingress": true,
+    "ingress_port": 4533,
     "webui": "[PROTO:ssl]://[HOST]:[PORT:4533]",
     "options": {
         "PUID": 0,
