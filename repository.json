@@ -1,5 +1,5 @@
 {
-    "name": "HA Add-ons by bilogic",
+    "name": "Add-ons for Home Assistant by bilogic",
     "udev": true,
     "url": "https://github.com/bilogic/ha-addons",
     "maintainer": "bilogic"
