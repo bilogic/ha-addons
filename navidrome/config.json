@@ -70,9 +70,6 @@
     "privileged": [
         "SYS_TIME"
     ],
-    "ingress": true,
-    "ingress_port": 4533,
-    "webui": "[PROTO:ssl]://[HOST]:[PORT:4533]",
     "options": {
         "PUID": 0,
         "PGID": 0,
@@ -98,5 +95,8 @@
     },
     "ports_description": {
         "4533/tcp": "WebUI"
-    }
+    },
+    "webui": "[PROTO:ssl]://[HOST]:[PORT:4533]",
+    "ingress": true,
+    "ingress_port": 4533
 }
