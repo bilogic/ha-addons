@@ -1,5 +1,5 @@
 {
-    "version": "1.0.23",
+    "version": "1.0.24",
     "devices": [
         "/dev/dri",
         "/dev/dri/card0",
@@ -99,5 +99,6 @@
     "webui": "[PROTO:ssl]://[HOST]:[PORT:4533]",
     "panel_icon": "mdi:record-circle-outline",
     "ingress": true,
-    "ingress_port": 4533
+    "ingress_port": 4533,
+    "ingress_entry": "./app"
 }
