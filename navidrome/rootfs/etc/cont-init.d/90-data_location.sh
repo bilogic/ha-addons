@@ -21,6 +21,8 @@ if [ ! -d "$ND_DATAFOLDER" ]; then
     mkdir -p "$ND_DATAFOLDER"
 fi
 
+export ND_BASEURL=/api/hassio_ingress/nzZbBSf89wBkxXceoWvFTtvazRHU2wLp0I7Oaf1RAyY
+
 ##############
 # LAUNCH APP #
 ##############
