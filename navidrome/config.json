@@ -97,6 +97,7 @@
         "4533/tcp": "WebUI"
     },
     "webui": "[PROTO:ssl]://[HOST]:[PORT:4533]",
+    "panel_icon": "mdi:record-circle-outline",
     "ingress": true,
     "ingress_port": 4533
 }
