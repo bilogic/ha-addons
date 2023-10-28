@@ -1,5 +1,5 @@
 {
-    "version": "1.0.25",
+    "version": "1.0.26",
     "devices": [
         "/dev/dri",
         "/dev/dri/card0",
@@ -100,5 +100,4 @@
     "panel_icon": "mdi:record-circle-outline",
     "ingress": true,
     "ingress_port": 4533,
-    "ingress_entry": "/app"
 }
