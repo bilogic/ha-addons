@@ -5,6 +5,7 @@ set -e
 
 # Configure app
 
+bashio::config.has_value 'ND_ENABLESHARING' && export ND_ENABLESHARING=$(bashio::config 'ND_ENABLESHARING') && bashio::log.info "ND_ENABLESHARING set to $ND_ENABLESHARING"
 bashio::config.has_value 'ND_MUSICFOLDER' && export ND_MUSICFOLDER=$(bashio::config 'ND_MUSICFOLDER') && bashio::log.info "ND_MUSICFOLDER set to $ND_MUSICFOLDER"
 bashio::config.has_value 'ND_DATAFOLDER' && export ND_DATAFOLDER=$(bashio::config 'ND_DATAFOLDER') && bashio::log.info "ND_DATAFOLDER set to $ND_DATAFOLDER"
 

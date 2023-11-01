@@ -1,5 +1,5 @@
 {
-    "version": "1.0.31",
+    "version": "1.0.32",
     "devices": [
         "/dev/dri",
         "/dev/dri/card0",
@@ -76,6 +76,7 @@
         "ND_DATAFOLDER": "/config/addons_config/navidrome",
         "ND_MUSICFOLDER": "/media/Media/music",
         "ND_SCANINTERVAL": "1m",
+        "ND_ENABLESHARING": true,
         "ND_TRANSCODINGCACHESIZE": "100MB",
         "ND_SESSIONTIMEOUT": "30m",
         "ND_LOGLEVEL": "info"
@@ -86,6 +87,7 @@
         "ND_DATAFOLDER": "str?",
         "ND_MUSICFOLDER": "str?",
         "ND_SCANINTERVAL": "str?",
+        "ND_ENABLESHARING": "bool",
         "ND_TRANSCODINGCACHESIZE": "str",
         "ND_SESSIONTIMEOUT": "str?",
         "ND_LOGLEVEL": "str?"
