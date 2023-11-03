@@ -1,5 +1,5 @@
 {
-    "version": "1.0.32",
+    "version": "1.0.33",
     "devices": [
         "/dev/dri",
         "/dev/dri/card0",
@@ -66,6 +66,9 @@
         "media:rw",
         "config:rw",
         "share:rw"
+    ],
+    "backup_exclude": [
+        "**/cache"
     ],
     "privileged": [
         "SYS_TIME"
