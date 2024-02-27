@@ -1,5 +1,5 @@
 {
-    "version": "1.0.33",
+    "version": "1.0.34",
     "devices": [
         "/dev/dri",
         "/dev/dri/card0",
@@ -53,7 +53,7 @@
         "/dev/nvme2"
     ],
     "name": "Navidrome",
-    "description": "Navidrome is a self-hosted, open source music server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device.",
+    "description": "Navidrome is a self-hosted, open source music server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device.\r\n\r\nI appreciate your help with an upvote for this issue https://github.com/microsoft/vscode/issues/201452",
     "slug": "navidrome",
     "init": false,
     "url": "https://github.com/bilogic/ha-addons/tree/main/navidrome",
