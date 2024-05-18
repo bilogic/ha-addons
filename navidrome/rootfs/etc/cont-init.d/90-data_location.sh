@@ -8,6 +8,7 @@ set -e
 bashio::config.has_value 'ND_ENABLESHARING' && export ND_ENABLESHARING=$(bashio::config 'ND_ENABLESHARING') && bashio::log.info "ND_ENABLESHARING set to $ND_ENABLESHARING"
 bashio::config.has_value 'ND_MUSICFOLDER' && export ND_MUSICFOLDER=$(bashio::config 'ND_MUSICFOLDER') && bashio::log.info "ND_MUSICFOLDER set to $ND_MUSICFOLDER"
 bashio::config.has_value 'ND_DATAFOLDER' && export ND_DATAFOLDER=$(bashio::config 'ND_DATAFOLDER') && bashio::log.info "ND_DATAFOLDER set to $ND_DATAFOLDER"
+bashio::config.has_value 'ND_BASEURL' && export ND_BASEURL=$(bashio::config 'ND_BASEURL') && bashio::log.info "ND_BASEURL set to $ND_BASEURL"
 
 # Check data location
 LOCATION=$(bashio::config 'ND_DATAFOLDER')
@@ -34,6 +35,8 @@ ls -la /data
 
 bashio::log.info "Looking inside /music"
 ls -la /music
+
+bashio::log.info "ND_BASEURL is $ND_BASEURL"
 
 bashio::log.info "Looking inside ND_DATAFOLDER $ND_DATAFOLDER"
 ls -la $ND_DATAFOLDER
