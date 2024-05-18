@@ -1,5 +1,5 @@
 {
-    "version": "1.0.34",
+    "version": "1.0.35",
     "devices": [
         "/dev/dri",
         "/dev/dri/card0",
@@ -76,6 +76,7 @@
     "options": {
         "PUID": 0,
         "PGID": 0,
+        "ND_BASEURL": ".",
         "ND_DATAFOLDER": "/config/addons_config/navidrome",
         "ND_MUSICFOLDER": "/media/Media/music",
         "ND_SCANINTERVAL": "1m",
@@ -87,6 +88,7 @@
     "schema": {
         "PGID": "int",
         "PUID": "int",
+        "ND_BASEURL": "str?",
         "ND_DATAFOLDER": "str?",
         "ND_MUSICFOLDER": "str?",
         "ND_SCANINTERVAL": "str?",
