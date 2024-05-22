@@ -76,7 +76,7 @@
     "options": {
         "PUID": 0,
         "PGID": 0,
-        "ND_BASEURL": ".",
+        "ND_BASEURL": "/",
         "ND_DATAFOLDER": "/config/addons_config/navidrome",
         "ND_MUSICFOLDER": "/media/Media/music",
         "ND_SCANINTERVAL": "1m",
